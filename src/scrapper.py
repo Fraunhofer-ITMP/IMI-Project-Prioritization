@@ -3,8 +3,8 @@
 import os
 import logging
 import time
-from datetime import datetime
-from copy import deepcopy
+import en_core_sci_md
+from fuzzywuzzy import fuzz
 from tqdm import tqdm
 import pandas as pd
 
@@ -120,27 +120,28 @@ def get_metadata():
         ) = row
 
         if project_name == 'IB4SD-TRISTAN':
-            project_name = 'TRISTAN'
+            name = 'TRISTAN'
         elif project_name == 'GetReal Initiative':
-            project_name = 'GetReal-Initiative'
+            name = 'GetReal-Initiative'
         elif project_name == 'WEB-RADR 2':
-            project_name ='WEB-RADR-2'
+            name ='WEB-RADR-2'
         elif project_name == 'GNA NOW':
-            project_name = 'GNA-NOW'
+            name = 'GNA-NOW'
         elif project_name == 'Trials@Home':
-            project_name = 'TrialsHome'
+            name = 'TrialsHome'
         elif project_name == 'INNODIA HARVEST':
-            project_name = 'INNODIA-HARVEST'
+            name = 'INNODIA-HARVEST'
         elif project_name == 'MAD-CoV 2':
-            project_name = 'MAD-CoV-2'
+            name = 'MAD-CoV-2'
         elif project_name == 'HARMONY PLUS':
-            project_name = 'HARMONY-PLUS'
+            name = 'HARMONY-PLUS'
         elif len(project_name.split()) > 1:
-            project_name = ''.join(project_name.split())
-            print(project_name)
+            name = ''.join(project_name.split())
+        else:
+            name = project_name
 
-        url = f'https://www.imi.europa.eu/projects-results/project-factsheets/{project_name.lower()}'
-        print('URL ', url)
+        url = f'https://www.imi.europa.eu/projects-results/project-factsheets/{name.lower()}'
+        driver.get(url)
 
         time.sleep(2)
 

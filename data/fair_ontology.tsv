@@ -1,0 +1,114 @@
+term	category
+Alzheimer	Neurodegenerative
+Parkinson	Neurodegenerative
+Prion	Neurodegenerative
+Neurone	Neurodegenerative
+Huntington	Neurodegenerative
+ataxia	Neurodegenerative
+Spinal muscular atrophy	Neurodegenerative
+Neurodegenerat	Neurodegenerative
+Antibiotic	AMR
+Antimicrobial	AMR
+Acinetobacter baumannii	AMR
+Pseudomonas aeruginosa	AMR
+Enterobacteriaceae	AMR
+Enterococcus faecium	AMR
+Staphylococcus aureus	AMR
+Helicobacter pylori	AMR
+Campylobacter	AMR
+Salmonellae	AMR
+Neisseria gonorrhoeae	AMR
+Streptococcus pneumoniae	AMR
+Haemophilus influenzae	AMR
+Shigella	AMR
+AMR	AMR
+Resistan	AMR
+Alzheimer	Chronic
+Arthrit	Chronic
+Asthma	Chronic
+Cancer	Chronic
+COPD	Chronic
+Crohn	Chronic
+Cystic	Chronic
+Diabet	Chronic
+Epilep	Chronic
+Heart	Chronic
+HIV	Chronic
+AIDS	Chronic
+Mood disorders	Chronic
+Multiple sclerosis	Chronic
+Parkinson	Chronic
+bipolar	Chronic
+cyclothymic	Chronic
+depression	Chronic
+chronic	Chronic
+falls	Aging
+physical activity	Aging
+vaccination	Aging
+care	Aging
+home care	Aging
+self-care	Aging
+geriatrics	Aging
+gerontology	Aging
+social isolation	Aging
+social exclusion	Aging
+dementia	Aging
+palliative	Aging
+elder maltreatment	Aging
+ageing	Aging
+Cancer	Disease
+Cardiovascular	Disease
+Cardiopathy	Disease
+Asthma	Disease
+COPD	Disease
+Diabetes	Disease
+Alzheimer	Disease
+ADHD	Disease
+ulcerative colitis	Disease
+lupus	Disease
+Crohn	Disease
+thyroiditis	Disease
+polychondritis	Disease
+Blindness	Disease
+hepatitis	Disease
+arthritis	Disease
+pain	Disease
+psoriasis	Disease
+Deafness	Disease
+Endometriosis	Disease
+Epilepsy	Disease
+Fibromyalgia	Disease
+AIDS	Disease
+Huntington	Disease
+Hypertension	Disease
+Sclerosis	Disease
+encephalomyelitis	Disease
+Obesity	Disease
+Osteoporosis	Disease
+Parkinson	Disease
+Resistance	Disease
+Infect	Disease
+tool	method
+standard	method
+platform	method
+develop	method
+train	method
+quality	method
+access	method
+academic	method
+algorithm	method
+workflow	method
+administration	method
+biomarker	method
+stratificaton	method
+target	method
+toxicity	method
+profiling	method
+pathway	method
+genetic	method
+modelling	method
+immune response	method
+susceptibility	method
+diagnosis	method
+digital	method
+data	method

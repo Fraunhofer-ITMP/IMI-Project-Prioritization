@@ -60,7 +60,7 @@ _enable_download_headless(driver, DATA_DIR)
 def load_file():
     """Loads the project file"""
     df = pd.read_excel(
-        os.path.join(DATA_DIR, 'IMI2_Projects_Abstacts+Participants.xlsx'),
+        os.path.join(DATA_DIR, 'IMI2_Projects_Abstracts.xlsx'),
         sheet_name='Abstract',
     )
 

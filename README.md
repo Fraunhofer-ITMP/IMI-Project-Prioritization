@@ -1,3 +1,4 @@
 # IMI_Scrapper
 
-Repository having the code for scraping IMI projects for WP-1 FAIRPlus. The aim is to create extensive list of all IMI projects for prioritization purposes.
+This repository is meant to provide an example of the code we used for scraping IMI projects for WP-1 FAIRPlus. It might be generalizable to address other projects having a different list of websites. Our aim was to create extensive list of all IMI projects for prioritization purposes. The script takes as input the LIST XXX [here also Zenodo link?] and generates an enriched output where eacxh project are profiled according with the approach described here [link of paper or of selection strategy in Zenodo].
+if the starting project list is limited this can be overdone. As we started with 120+ projects we decided to automatize where possible the data extraction. The output of the present script has been used to fill the template table whcih can be found here [zenodo link] for further prioritization discussion either within the Fairplus team or with singular project data champion in order to further refine the project profiling.  

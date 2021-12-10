@@ -3,6 +3,6 @@
 Other techniques, such as KNIME worklow can be used to collect this information.
 2. Classify the project data based on the content information. This Python script (main.py) searches for a predefined list of disease keywords (fair_ontology.tsv) in the project content text, which subsequently allows to group projects based on the disease keywords. This automated approach is helpful when dealing with a large number of projects, but may not be needed for only a few projects that should be evaluated.
 The list of disease keywords can be adapted to fulfill specific needs.
-3. Collect specific technical information using a data survey. This is an example of a data survey (https://docs.google.com/spreadsheets/d/1av5zSDaANjCtlIo1-cCeDenrOdB2Sdn-bTGD3J-ESCY/edit#gid=79218597 Zenodo?) that was used to understand the data structure in a given project.
-4. Use all project information and apply a score card. In the given example (https://docs.google.com/spreadsheets/d/1MRy1tfViK_s-_sIllnWOGCVSwTRRNhiLc7ec0k82BIw/edit?amp;ouid=105483724883399364409#gid=1004400010 Zenodo?) projects are scored based on scientific, societal and technical aspects. The total score is used to prioritize the projects. 
+3. Collect specific technical information using a data survey. This is a document containing an example of a [data survey](https://zenodo.org/record/3274230#.YbNVK7nMJgA) that was used to understand the data structure in a given project.
+4. Use all project information and apply a score card. In the document [here linked](https://zenodo.org/record/3596024#.YbNVQLnMJgA), projects are scored based on scientific, societal and technical aspects. The total score is used to prioritize the projects. 
 

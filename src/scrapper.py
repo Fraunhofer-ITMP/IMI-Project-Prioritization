@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+"""IMI Web Scraping code"""
+
 import logging
 import os
 import pandas as pd

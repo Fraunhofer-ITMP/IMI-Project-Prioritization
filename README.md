@@ -38,6 +38,7 @@ For Linux and Mac users, an additional step to add chromedriver to the path has 
    ```
    mv chromedriver /usr/local/bin
    ```
+For Mac user, be sure to authorize the execution of the binary in the System -> Preferences -> Security&Privacy -> General Tab
 - Run the [main.py](src/main.py) file from the python terminal as follows:
 ```python
 python src/main.py

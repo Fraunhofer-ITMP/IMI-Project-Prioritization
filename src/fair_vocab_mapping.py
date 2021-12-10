@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-import os
 import en_core_sci_md
+import os
+import pandas as pd
 from fuzzywuzzy import fuzz
 from tqdm import tqdm
-import pandas as pd
 
 from constants import DATA_DIR
 
@@ -144,7 +144,7 @@ def get_fair_mapping():
             'Summary_CountNeurodegenerative': len(summary_dict['Neurodegenerative']),
             'Summary_CountAMR': len(summary_dict['AMR']),
             'Summary_CountChronic': len(summary_dict['Chronic']),
-            'Summary_CountAging':  len(summary_dict['Aging']),
+            'Summary_CountAging': len(summary_dict['Aging']),
             'Summary_CountDisease': len(summary_dict['Disease']),
             'ShortDescription_Neurodegenerative': ', '.join(short_desc_dict['Neurodegenerative']),
             'ShortDescription_AMR': ', '.join(short_desc_dict['AMR']),
@@ -169,8 +169,3 @@ def get_fair_mapping():
         sep='\t',
         index=False
     )
-
-
-if __name__ == '__main__':
-    get_fair_mapping()
-    # print(fuzz.ratio('Infectious', 'Infect'))

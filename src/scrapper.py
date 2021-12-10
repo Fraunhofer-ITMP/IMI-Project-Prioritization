@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
 
-import os
 import logging
-import time
-import en_core_sci_md
-from fuzzywuzzy import fuzz
-from tqdm import tqdm
+import os
 import pandas as pd
+import time
+from tqdm import tqdm
 
 from constants import DATA_DIR, chrome_driver_path
 
@@ -124,7 +122,7 @@ def get_metadata():
         elif project_name == 'GetReal Initiative':
             name = 'GetReal-Initiative'
         elif project_name == 'WEB-RADR 2':
-            name ='WEB-RADR-2'
+            name = 'WEB-RADR-2'
         elif project_name == 'GNA NOW':
             name = 'GNA-NOW'
         elif project_name == 'Trials@Home':
@@ -284,7 +282,3 @@ def get_metadata():
     )
 
     driver.close()
-
-
-if __name__ == '__main__':
-    get_metadata()

@@ -1,6 +1,6 @@
 # Project selection and Prioritization Tools 
 
-## Overview of the process:
+## Process overview
 1. Collect all project information necessary to make a selection as shown exemplary in the [excel file](data/IMI2_Projects_Abstacts.xlsx). It contains information about the name, start date, end data, involved partners, and focus of the projects. In order to retrieve additional public information on the projects, one possibility is to use web scraping techniques. Here, we give an example using a [Python script](src/scrapper.py). Other techniques, such as KNIME workflow can be used to collect this information.
 2. Classify the project data based on the content information. This [Python script](src/fair_vocab_mapping.py) searches for a predefined list of disease keywords (present in the [ontology file](data/fair_ontology)) in the project content text, which subsequently allows grouping projects based on the disease keywords. This automated approach is helpful when dealing with large number of projects, but may not be needed for evaluating a few projects. The list of disease keywords can be adapted to fulfill specific needs.
 3. Collect specific technical information using a data survey. This is a document containing an example of a [data survey](https://zenodo.org/record/3274230#.YbNVK7nMJgA) that was used to understand the data structure in a given project.

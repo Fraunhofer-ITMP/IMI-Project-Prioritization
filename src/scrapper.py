@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""IMI Web Scraping code"""
+"""IMI Web Scraping code."""
 
 import logging
 import os

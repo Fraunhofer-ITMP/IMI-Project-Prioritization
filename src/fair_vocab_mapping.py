@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+"""Keyword mapping and searching code."""
+
 import en_core_sci_md
 import os
 import pandas as pd

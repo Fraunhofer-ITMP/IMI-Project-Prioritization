@@ -1,0 +1,8 @@
+Notes:
+en_core_sci_md
+You may need to download the en_core_sci_md directly from https://allenai.github.io/scispacy/
+
+chromedriver
+You need to download chromedriver.
+Windows: add the path of the chromedriver in the src/constants.py file
+MAC/Linux: add chromedriver to /usr/local/bin - MAC be sure to authorize the execution of the binary in the System->Preferences->Security&Privacy

@@ -1,9 +1,16 @@
 pip
 pandas
-selenium=3.141.0
-xlrd=2.0.1
-openpyxl=3.0.7
+selenium==3.141.0
+xlrd==2.0.1
+openpyxl==3.0.7
+scispacy
+en_core_sci_md
 scispacy
 en_core_sci_md
 fuzzywuzzy
 tqdm
+
+
+Notes:
+- download chromedriver
+- download en_core_sci_md from https://allenai.github.io/scispacy/

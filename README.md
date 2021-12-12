@@ -10,13 +10,13 @@
 ## Running the script
 - Clone the GitHub repository locally using the following command in your terminal:
 ```
-git clone https://github.com/Fraunhofer-ITMP/IMI_Scrapper
+git clone https://github.com/Fraunhofer-ITMP/IMI-Project-Prioritization
 ```
 Alternatively, you can also use [GitHub Desktop](https://desktop.github.com/) to clone the repository.
 
-- Go to the location of your cloned local repository via the terminal and get into the IMI_Scrapper folder using the following command:
+- Go to the location of your cloned local repository via the terminal and get into the IMI-Project-Prioritization folder using the following command:
 ```python
-cd IMI_Scrapper
+cd IMI-Project-Prioritization
 ```
 -  Create a virtual environment. If you are using conda, you can use the following commands:
 ```python

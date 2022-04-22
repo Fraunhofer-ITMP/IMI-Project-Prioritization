@@ -65,7 +65,7 @@ sudo xattr -d com.apple.quarantine /usr/local/bin/chromedriver (For Mac M1 users
 ```
 For Mac user, be sure to authorize the execution of the binary in the System -> Preferences -> Security&Privacy -> General Tab
 
-Unfortunatelty, you would require admin rights to your computer or laptop for doing this.
+Note that you need to have admin rights on your computer or laptop for doing this.
 
 ## Running the script
 Run the [main.py](src/main.py) file from the Python terminal as follows:
